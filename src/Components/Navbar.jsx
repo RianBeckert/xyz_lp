@@ -18,7 +18,7 @@ const Navbar = () => {
     ]
     return (
         <>
-      <nav className='bg-white md:px-14 p-4 max-w-screen-2xl border-b mx-auto text-primary fixed top-0 right-0 left-0'>
+      <nav className='bg-white md:px-14 p-4 max-w-screen-2xl mx-auto text-primary fixed top-0 right-0 left-0'>
         <div className='text-lg container mx-auto flex justify-between items-center font-medium'>
             <div className='flex space-x-14 items-center'>
                 <a href="/" className='text-2x1 font-semibold flex items-center space-x-3 text-primary'>
@@ -39,7 +39,7 @@ const Navbar = () => {
             <div className='md:hidden'>
                     <button onClick={toggleMenu} className='text-white focus:outline-none focus:text-gray-300'>
                         {
-                            isMenuOpen ? (<FaXmark className='w-6 h-6 text-primary'/>) : (<FaBars className='w-6 h-6 text-primary'/>)
+                            isMenuOpen ? (<FaXmark className='w-10 h-5 text-primary'/>) : (<FaBars className='w-10 h-5 text-primary'/>)
                         }
                     </button>
             </div>
